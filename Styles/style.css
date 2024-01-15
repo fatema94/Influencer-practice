@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -18,6 +21,10 @@
     text-decoration: none;
     color: black;
 }
+.nav-list li a:hover{
+    background-color: #E02C6D;
+    color: #FFF;
+}
 .head{
     display: flex;
     justify-content: space-around;
@@ -36,12 +43,14 @@
     padding: 8px 20px;
     font-size: 1.5rem;
     border: none;
+    cursor: pointer;
 }
 .camera{
     background-image: url(/images/Circle\ design.svg);
 }
 .sponsor{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(7 ,1fr);
     margin-top: 100px;
     padding: 50px 120px;
     border-top: 1px solid rgb(215, 215, 223);
@@ -102,5 +111,49 @@
     color: #FFF;
     font-size: 1.5rem;
     border: none;
+    cursor: pointer;
 
+}
+footer{
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+}
+.foot{
+    padding: 50px 50px;
+    text-align: center;
+}
+.f-tittle{
+    font-size: 2rem;
+}
+.foot p{
+    font-size: 1.5rem;
+}
+@media screen and (max-width:576px) {
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+    .start, .features-description{
+        text-align: center;
+    }
+    .sponsor{
+        grid-template-columns: repeat(4 ,1fr);
+        gap: 20px;
+    }
+    .head, .features-content{
+        flex-direction: column-reverse;
+        padding: 10px 10px;
+    }
+    .collection{
+        grid-template-columns: repeat(1 , 1fr);
+        padding: 20px 20px;
+    }
+    .features-img{
+        padding: 50px 30px;
+    }
+   
+    
 }
