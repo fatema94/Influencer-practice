@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.nav-tittle{
+    font-size: 2rem;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+.start-tittle{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.start-description{
+    font-size: 1.6rem;
+}
+.start-btn{
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    border: none;
+}
+.camera{
+    background-image: url(/images/Circle\ design.svg);
+}
+.sponsor{
+    display:flex;
+    margin-top: 100px;
+    padding: 50px 120px;
+    border-top: 1px solid rgb(215, 215, 223);
+    border-bottom: 1px solid rgb(215, 215, 223);
+    justify-content: space-around;
+}
+.collections{
+    justify-content: center;
+}
+.collections-tittle{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding: 50px 150px;
+}
+.collection-card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    padding: 30px; 
+
+}
+.card-tittle{
+    font-size: 2rem;
+}
+.card-price{
+    font-size: 1.8rem;
+}
+.card-details{
+    font-size: 1.3rem;
+}
+.features-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+.features-description{
+    padding: 10px 50px;
+}
+.d-tittle{
+    font-size: 3rem;
+}
+.d-details{
+    color: #6C6C6C;
+    font-style: normal;
+   font-weight: 700;
+   font-size: 1.5rem;
+}
+.d-btn{
+    display: inline-flex;
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1.5rem;
+    border: none;
+
+}
